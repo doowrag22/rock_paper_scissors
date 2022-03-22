@@ -2,11 +2,11 @@ var getUserChoice = function(userInput) {
     userInput = userInput.toLowerCase()
     if (userInput === 'rock' || userInput === 'paper' || userInput === 'scissors'){
         return userInput;
-    }else {
-        console.log("Please choose rock, paper, or scissors")
-        return userInput;
+    } else {
+        console.log("Please choose rock, paper, or scissors");
     }
-}
+};
+
 var getComputerChoice = function() {
     var number = Math.floor(Math.random() * 3)
     if (number === 0) {
